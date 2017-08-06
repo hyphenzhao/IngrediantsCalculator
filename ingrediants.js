@@ -1,6 +1,6 @@
 function addNewItem(){
 	var table = document.getElementById("ingrediants_table");
-	table.innerHTML = table.innerHTML + "<tr> <td><input type='text' value='item" + n + "' /></td><td><input type='text' style='width: 100px;' onchange='expectationChanged(this)' id='e"+ n +"'/>g</td><td><input type='text' style='width: 100px;' onchange='actualValueChanged(this)' id='a" + n +"'/>g</td> </tr>";
+	table.innerHTML = table.innerHTML + "<tr> <td><input type='text' value='item" + n + "' /></td><td><input type='text' style='width: 100px;' onchange='expectationChanged(this)' id='e"+ n +"'/></td><td><input type='text' style='width: 100px;' onchange='actualValueChanged(this)' id='a" + n +"'/></td> </tr>";
 	n++;
 }
 function expectationChanged(element){
